@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 // 日志
 import logger from 'redux-logger'
-// 处理日志
+// 异步网路请求
 import thunk from 'redux-thunk'
 import jwtDecode from "jwt-decode"
 import { composeWithDevTools } from "redux-devtools-extension";
 import rootReducer from './reducers'
 import { createStore,applyMiddleware } from "redux";
 import {Provider} from "react-redux";
-import { BrowserRouter as Router ,Route} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import routes from "./routes"
 import NavBar from "./components/NavBar";
 import FlashMessageList from "./components/flash/FlashMessageList";

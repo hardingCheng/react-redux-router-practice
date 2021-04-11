@@ -13,6 +13,6 @@ export default (
          <Route exact path="/" component={App}></Route>
          <Route exact path="/signup" component={SignUpPage}></Route>
          <Route exact path="/login" component={LoginPage}></Route>
-        <Route exact path="/shop" component={routeAuth(ShopPage)}></Route>
+         <Route exact path="/shop" component={routeAuth(ShopPage)}></Route>
     </div>
 )
